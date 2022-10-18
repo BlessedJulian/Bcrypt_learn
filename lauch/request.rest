@@ -1,0 +1,29 @@
+GET http://localhost:3500/users
+
+
+
+#####
+POST http://localhost:3500/users
+Content-Type: application/json
+
+
+{
+    "password": "password",
+    "name": "julian"
+}
+
+
+######
+
+POST http://localhost:3500/login
+Content-Type: application/json
+
+
+
+{
+    
+    "password": "pssword",
+    "name" : "juliha"
+   
+}
+
